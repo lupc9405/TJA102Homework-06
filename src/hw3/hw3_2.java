@@ -12,7 +12,7 @@ public class hw3_2 {
 	
 	boolean keepGuessing = true; 
 	while (keepGuessing) {
-		System.out.println("開始猜數字吧！");
+		System.out.println("開始猜數字吧！\n請輸入你猜的數字(0~100): ");
 		int guess = input.nextInt();
 		
 		if (guess > answer) {
